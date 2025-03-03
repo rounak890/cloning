@@ -1,0 +1,337 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.first_one_button{
+    background-image: url("newimage.jpg");
+    height: 20cm;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+  .first_one_button .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-image: url("newimage.jpg");
+    color: white;
+    font-size: 40px;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    border: 40px solid #ffffff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 2px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #ffffff;
+    box-shadow: 0px 0px 2px #ffffff;
+  }
+  
+
+  .btn2{
+    position: absolute;
+    border-radius: 20%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn2:hover {
+    background-image: none;
+    background-color: yellow;
+    color: black;
+  }
+
+
+.second_one_button{
+    height: 15cm;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.projects{
+    background-color: #200093;
+    height: 15cm;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table{
+    margin-left: 25%;
+    background-color: black;
+}
+
+table, th, td {
+    border: 1px solid yellow;
+  }
+td :hover{
+    zoom: 50%;   
+}
+
+.fourth_one_button{
+    background-color: white;
+    height: 15cm;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    orientation: vertical;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-container>div {
+  margin-top: 300px;
+  margin:30px;
+  }
+  .flex-container hr {
+     
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+      margin: 10px;
+      border-color: #FFF;
+      box-shadow: none;
+      border-width: 5px;
+  }
+  
+
+.html {
+    height: 170px;
+    width: 150px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(144, 205, 245);
+  }
+
+  .html:hover, .css:hover, .js:hover, .react:hover {
+    zoom: 120%;
+  }
+  
+  .css {
+    height: 170px;
+    font-size: 30px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(144, 205, 245);
+  }
+  
+  .js {
+    height: 170px;
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(144, 205, 245);
+  }
+  
+  .react {
+    height: 170px;
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(144, 205, 245);
+  }
+
+  
+  .rounak {
+    height: 400px;
+    width: 250px;    
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(144, 205, 245);
+  }
+  
+  .Ujjwal{
+    height: 400px;
+    width: 250px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(144, 205, 245);
+  }
+  
+  .Vardeep {
+    height: 400px;
+    width: 250px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(144, 205, 245);
+  }
+
+  .expand:hover{
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        height: 40px;
+  }
+
+  .animatedLines {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+ }
+ .animatedLines .lines:nth-child(1) {
+    animation-delay: .1s;
+    background-color: white;
+ }
+ 
+ .animatedLines .lines:nth-child(2) {
+    animation-delay: .2s;
+    background-color: white;
+ }
+ 
+ .animatedLines .lines:nth-child(3) {
+    animation-delay: .3s;
+ 
+    background-color: rgb(18, 49, 6);
+ }
+ 
+ .animatedLines .lines:nth-child(4) {
+    animation-delay: .4s;
+    background-color: rgb(18, 49, 6);
+ }
+ 
+ .animatedLines .lines:nth-child(5) {
+    animation-delay: .3s;
+    background-color: rgb(18, 49, 6);
+ }
+ 
+ .animatedLines .lines:nth-child(6) {
+    animation-delay: .2s;
+    background-color: white;
+ }
+ 
+ .animatedLines .lines:nth-child(7) {
+    animation-delay: .1s;
+    background-color:white;
+ }
+ .animatedLines .lines {
+    list-style: none;
+    width: 5px;
+    height: 10px;
+    margin: 0 4px;
+    animation: animatedBars .5s infinite alternate;
+ }
+ 
+ @keyframes animatedBars {
+    0% {
+       transform: scaleY(1);
+    }
+ 
+    25% {
+       transform: scaleY(1);
+    }
+ 
+    50% {
+       transform: scaleY(1);
+    }
+ 
+    100% {
+       transform: scaleY(6);
+    }
+ 
+ }
+
+ .main_btn{
+    background-color: rgb(97, 243, 97);
+    border: none;
+}
+
+.pencil_box{
+    border-radius: 3%;
+    background-color: red; 
+    width: 45%; 
+    height: 25%; 
+    margin-left: 30%;
+    box-shadow: 100px 100px 100px rgba(0, 0, 0, 0.2);
+
+}
+
+ .main_btn:hover{
+    background-color: rgb(158, 158, 243);
+ }
+
+ .button_slide {
+    border: 2px solid rgb(216, 2, 134);
+    padding: 1.28571em 2.57143em;
+    display: inline-block;
+    width: 30%; 
+    height: 5%; 
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #d80286;
+  animation: leave 0.4s forwards;
+}
+
+.slide_right:hover {
+    animation: hover 0.4s forwards;
+}
+
+@keyframes hover {
+    from {
+        box-shadow: inset 0 0 0 0.01px #d80286;
+    }
+    to {
+        box-shadow: inset 8.79928em 0 0 0.01px #d80286;
+        color: #fff;
+    }
+}
+
+@keyframes leave {
+    from {
+        box-shadow: inset -8.79928em 0 0 0.01px #d80286;
+        color: #fff;
+    }
+    to {
+        box-shadow: inset 0 0 0 0.01px #d80286;
+    }
+}
