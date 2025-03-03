@@ -308,7 +308,7 @@ td :hover{
     font-size: 20px;
     letter-spacing: 1px;
     cursor: pointer;
-    color: #d80286;
+    color: white;
   animation: leave 0.4s forwards;
 }
 
